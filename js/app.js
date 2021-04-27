@@ -1,27 +1,27 @@
 'use strict';
 
-alert('hello , and welcome to my web introduction ');
+alert('hello , and welcome to my page introduction ');
 
 let userName = prompt('please enter your name ');
 
-alert('welcom ' + userName);
+alert('welcom ' + userName + ' i will ask a few question about me to now if you now me ');
 
 
 let score = 0;
 
 
 
-let Name = prompt('is my name ahmad ? yes or no ');
+let Name = prompt('do you now how i am  ? yes or no ');
 
 switch (Name.toLowerCase()) {
     case 'yes':
     case 'y':
-        alert('great jop thats corect ');
+        alert('great jop thats corect i am ahmad  ');
         score++;
         break;
     case 'no':
     case 'n':
-        alert('oopps that is a wrong answer');
+        alert('dont wory you will now me after this ');
         break;
 
     default:
@@ -89,7 +89,7 @@ let phoneType = prompt('do i have an android phone ?');
 switch (phoneType.toLowerCase()) {
     case 'yes':
     case 'y':
-        alert('great jop thats corect ');
+        alert('great jop thats corect  ');
         score++;
         break;
     case 'no':
@@ -104,9 +104,9 @@ switch (phoneType.toLowerCase()) {
 
 
 
-alert('welcome aguin ' + userName + ' can you quess my fav number you have Four attempts to get my age  let\'s begin ')
+alert('welcome aguin ' + userName + ' now round two i will ask you a quess question are you ready  ')
 
-let attempts = prompt('choose number between 20 to 29 ');
+let attempts = prompt('can you quess my fav number you have Four attempts to get my fav number let\'s begin \n choose number between 20 to 29 ');
 attempts = parseInt(attempts);
 
 for (let i = 0; i < 4; i++) {
