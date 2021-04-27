@@ -1,64 +1,98 @@
 'use strict';
+
 alert('hello , and welcome to my web introduction ');
 
-let userName=prompt('please enter your name ');
+let userName = prompt('please enter your name ');
 
-alert('welcom '+ userName);
-
-
-
-let myName =prompt('what is my name is it ahmad? you can answer with \n yes or no ');
-if (myName.toUpperCase()==='YES'|| myName.toUpperCase()==='Y' ){
-    alert('great jop ');
-}
-else if(myName.toUpperCase()==='NO'|| myName.toUpperCase()==='N' ){
-    alert('ooops that is a wrong answer my name is ahmad');
-}
+alert('welcom ' + userName);
 
 
 
 
+let Name = prompt('is my name ahmad ? yes or no ');
 
-let myAge=prompt('is my age 23 ?  ')
-if (myAge.toUpperCase ()==='YES'|| myAge.toUpperCase ()==='Y' ){
-    alert('great jop ');
-}
-else if(myAge.toUpperCase()==='NO'|| myAge.toUpperCase()==='N' ){
-    alert('ooops that is a wrong answer my age is 23');
+switch (Name.toLowerCase()) {
+    case 'yes':
+    case 'y':
+        alert('great jop thats corect ');
+        break;
+    case 'no':
+    case 'n':
+        alert('oopps that is a wrong answer');
+        break;
+
+    default:
+        alert('you must answer with yes or no ')
+        break;
 }
 
 
+let myAge = prompt('is my age 23 ?  ');
 
+switch (myAge.toLowerCase()) {
+    case 'yes':
+    case 'y':
+        alert('great jop thats corect ');
+        break;
+    case 'no':
+    case 'n':
+        alert('oopps that is a wrong answer');
+        break;
 
-
-let colorEye=prompt('what do you thanke about mu color eyes is it broan ?');
-if (colorEye.toUpperCase()==='YES'|| colorEye.toUpperCase()==='Y'){
-    alert('great jop ');
-}
-else if(colorEye.toUpperCase ()==='NO'|| colorEye.toUpperCase ()==='N'){
-    alert('ooops that is a wrong answer actually color of my eyes is broan');
-}
-
-
-
-
-let study=prompt('what do you thank about my mojor is it a mechanical engineer ?');
-
-if (study.toUpperCase() ==='YES'|| study.toUpperCase() ==='Y' ){
-    alert('great jop ');
-}
-else if(study.toUpperCase() ==='NO'||  study.toUpperCase() ==='N'){
-    alert('ooops that is a wrong answer my mojor is actually mechanical engineer ');
+    default:
+        alert('you must answer with yes or no ')
+        break;
 }
 
+let colorEye = prompt('what do you thank about my color eyes is it broan ?');
 
+switch (colorEye.toLowerCase()) {
+    case 'yes':
+    case 'y':
+        alert('great jop thats corect ');
+        break;
+    case 'no':
+    case 'n':
+        alert('oopps that is a wrong answer');
+        break;
 
-let phoneType=prompt('do i have an android phone ?');
-if (phoneType.toUpperCase()==='YES'|| phoneType.toUpperCase()==='Y' ){
-    alert('great jop ');
+    default:
+        alert('you must answer with yes or no ')
+        break;
 }
-else if(phoneType.toUpperCase()==='NO'|| phoneType.toUpperCase()==='N' ){
-    alert('ooops that is a wrong answer i have an android deviece or phone');
+
+let study = prompt('what do you thank about my major is it a mechanical engineer ?')
+
+switch (study.toLowerCase()) {
+    case 'yes':
+    case 'y':
+        alert('great jop thats corect ');
+        break;
+    case 'no':
+    case 'n':
+        alert('oopps that is a wrong answer');
+        break;
+
+    default:
+        alert('you must answer with yes or no ')
+        break;
 }
 
-alert('thank you ' + userName + ' for your time ,please return as many you want ' );
+let phoneType = prompt('do i have an android phone ?');
+
+switch (phoneType.toLowerCase()) {
+    case 'yes':
+    case 'y':
+        alert('great jop thats corect ');
+        break;
+    case 'no':
+    case 'n':
+        alert('oopps that is a wrong answer');
+        break;
+
+    default:
+        alert('you must answer with yes or no ')
+        break;
+}
+
+alert('thank you ' + userName + ' for your time ,please return as many you want ');
